@@ -68,7 +68,7 @@ module Bureau
       status, header, body = @app.call(@r.env)
       @res.status = status
       @res.header.replace(header)
-      @content = res.body.inject(''){|r,s| r+s }
+      @content = body.inject(''){|r,s| r+s }
       _with_layout
     end
     

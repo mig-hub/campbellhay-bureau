@@ -1,6 +1,6 @@
 Gem::Specification.new do |s| 
   s.name = 'campbellhay-bureau'
-  s.version = "4.1.7"
+  s.version = "4.1.8"
   s.platform = Gem::Platform::RUBY
   s.summary = "The CampbellHay Admin System"
   s.description = "The CampbellHay Admin System"
