@@ -1,0 +1,4 @@
+*.swp
+.sass-cache/*
+lib/_static/css/.sass-cache
+
